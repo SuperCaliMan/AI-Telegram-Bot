@@ -1,0 +1,41 @@
+*.class
+.gradle
+.idea
+/build/
+/bin/
+/.settings/
+.project
+.classpath
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# dotenv environment variable files
+.env.dev
+env.development.json
+env.production.json
+env.local
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Serverless directories
+.serverless/
+.serverless-offline/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Serverless directories
+.serverless
+
+!/gradle/wrapper/gradle-wrapper.jar
